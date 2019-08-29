@@ -1,0 +1,42 @@
+<!-- views/pages/index.ejs -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+</head>
+<body class="container">
+
+<header>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</header>
+
+<main>
+    <div class="jumbotron">
+        <h1>This is great</h1>
+        <p>Welcome to templating using EJS</p>
+    </div>
+	<canvas id="mycanvas" width="500" height="500"
+style="border:1px solid #000000;">
+	</canvas>
+	<br>
+	<h2>Select your home country</h2>
+	<select id="home_country">
+  		<option value="america">America</option>
+  		<option value="china">China</option>
+ 		<option value="canada">Canada</option>
+	</select>
+	<br>
+	<br>
+	<button id="canada_btn">canada</button><p id="canada_score">0</p>
+	<button id="america_btn">america</button><p id="america_score">0</p>
+	<button id="china_btn">china</button><p id="china_score">0</p>
+
+	<script src="js/script.js"></script>
+</main>
+
+<footer>
+   
+</footer>
+
+</body>
+</html>
